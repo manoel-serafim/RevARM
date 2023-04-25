@@ -11,6 +11,8 @@ ld -o reverse reverse.o
 ```
 You can also use objcopy and xxd in order to generate needed shellcode.
 
+As an addendum, in order to prevent misuse, the payload creator is not included in this repository. If you wish to use RevARM, you will need to modify the source code before assembling and linking it. This is to enforce that RevARM will be only used for educational and research purposes
+
 ## License
 RevARM is released under the GNU General Public License v2.0. See the [LICENSE](LICENSE) file for more details.
 
